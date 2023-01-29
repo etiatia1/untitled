@@ -32,28 +32,10 @@ public class TestCreateNew {
      @Test
     public void test2(){
         driver.findElement(By.id("ember1862")).sendKeys("newuser");
-     }
-    @Test
-    public void test3(){
         driver.findElement(By.id("ember1869")).sendKeys("email@new");
-    }
-    @Test
-    public void test4(){
         driver.findElement(By.id("valPass")).sendKeys("NewPass1");
-    }
-
-    @Test
-    public void test5(){
         driver.findElement(By.id("ember1883")).sendKeys("NewPass1");
-    }
-
-    @Test
-    public void test6(){
         driver.findElement(By.id("ember1889")).click();
-    }
-
-    @Test
-    public void test7(){
         driver.findElement(By.id("ember1893")).click();
     }
 
