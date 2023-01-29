@@ -7,7 +7,7 @@ import org.openqa.selenium.By;
 import java.util.concurrent.TimeUnit;
 import java.time.Duration;
 
-public class TestCase {
+public class TestCreateNew {
     public static WebDriver driver;
     private static WebDriverWait wait;
 
